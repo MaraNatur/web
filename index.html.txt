@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaraNatur - Cosmética Bio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:'Lato', sans-serif; background:#f5f0e6; color:#808080; line-height:1.6; }
+        header { background:#ffffff; padding:20px 40px; display:flex; justify-content:space-between; align-items:center; }
+        header img { height:60px; }
+        nav a { margin-left:20px; color:#6aa84f; font-weight:700; text-decoration:none; transition:0.3s; }
+        nav a:hover { color:#4f8440; }
+        .hero { text-align:center; padding:100px 20px; background:#f5f0e6; }
+        .hero h1 { font-family:'Playfair Display', serif; font-size:3em; color:#6aa84f; margin-bottom:10px; }
+        .hero p { font-size:1.2em; color:#808080; }
+        .products { display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:30px; padding:50px 40px; background:#ffffff; justify-items:center; }
+        .product { background:#f5f0e6; padding:20px; text-align:center; border-radius:12px; transition:0.3s; max-width:250px; }
+        .product img { width:100%; max-width:200px; border-radius:8px; margin-bottom:15px; }
+        .product h3 { color:#6aa84f; margin-bottom:8px; font-family:'Playfair Display', serif; }
+        .product p { color:#808080; font-size:0.95em; }
+        .about { padding:60px 40px; text-align:center; background:#f5f0e6; }
+        .about h2 { font-family:'Playfair Display', serif; color:#6aa84f; margin-bottom:20px; font-size:2em; }
+        .about p { max-width:700px; margin:0 auto; }
+        .contact { padding:60px 40px; text-align:center; background:#ffffff; }
+        .contact h2 { font-family:'Playfair Display', serif; color:#6aa84f; margin-bottom:20px; font-size:2em; }
+        .contact p { margin-bottom:10px; }
+        footer { text-align:center; padding:20px; background:#f5f0e6; font-size:0.9em; color:#808080; }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="images/logo.png" alt="MaraNatur Logo">
+    <nav>
+        <a href="#hero">Inicio</a>
+        <a href="#products">Productos</a>
+        <a href="#about">Sobre</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+</header>
+
+<section id="hero" class="hero">
+    <h1>MaraNatur</h1>
+    <p>Cosmética Bio y Ecológica</p>
+</section>
+
+<section id="products" class="products">
+    <div class="product">
+        <img src="images/champu.jpg" alt="Champú Sólido">
+        <h3>Champú Sólido</h3>
+        <p>Champú ecológico y natural para todo tipo de cabello.</p>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2>Sobre MaraNatur</h2>
+    <p>En MaraNatur creamos cosmética bio y ecológica cuidando tu piel y el medio ambiente. Ingredientes naturales para tu bienestar y el planeta.</p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contacto</h2>
+    <p>Email: contacto@maranatur.com</p>
+    <p>Síguenos en nuestras redes sociales</p>
+</section>
+
+<footer>
+    &copy; 2026 MaraNatur. Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
+
